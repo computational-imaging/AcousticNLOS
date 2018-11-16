@@ -1,0 +1,22 @@
+#Acoustic Non-Line-of-Sight Imaging
+
+This repo contains the code for acoustic NLOS processing. 
+
+The datasets can be downloaded at this link:
+TBD
+Place the downloaded datasets into the 'data' folder.
+
+The initial reconstructions can be run with the following command
+```sh
+$ python3 AcousticNLOSReconstruction.py all
+```
+Or, replace 'all' with the particular scene you wish to reconstruct. 
+
+Then, calculate PSF for deconvolution by running
+```sh
+$ python3 FitGaussianPSF.py
+```
+The iterative reconstructions can then be computed with
+```sh
+$ python3 ADMMReconstruction.py all
+```
