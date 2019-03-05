@@ -3,7 +3,7 @@
 This repo contains the code for acoustic NLOS processing. 
 
 The datasets can be downloaded at this link:
-TBD
+[download](https://drive.google.com/a/stanford.edu/file/d/1pnRiD3e4EQiu-akvHkCMOyghwbVtQuvt/view?usp=sharing)
 Place the downloaded datasets into the 'data' folder.
 
 The initial reconstructions can be run with the following command
