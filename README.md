@@ -1,6 +1,6 @@
-# Acoustic Non-Line-of-Sight Imaging
+# Acoustic Non-Line-of-Sight Imaging (CVPR 2019)
 
-This repo contains the code for acoustic NLOS processing. 
+This repo contains the code for acoustic non-line-of-sight imaging. Our project webpage is located [here](http://www.computationalimaging.org/publications/acoustic-non-line-of-sight-imaging/).
 
 The datasets can be downloaded at this link:  
 [download datasets](https://drive.google.com/a/stanford.edu/file/d/1pnRiD3e4EQiu-akvHkCMOyghwbVtQuvt/view?usp=sharing)
