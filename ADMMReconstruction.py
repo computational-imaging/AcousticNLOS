@@ -90,7 +90,7 @@ def run(scene):
     eps_abs = 1e-3
     eps_rel = 1e-3
 
-    ckpt = np.load('data/' + scene + '_out.npy')[()]    
+    ckpt = np.load('data/' + scene + '_out.npy', allow_pickle=True)[()]    
     out_fname = scene + '_admm_out.npy'
 
     if scene == 'letter_H':

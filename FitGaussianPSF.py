@@ -39,7 +39,7 @@ def gaussian2d(xdata_tuple, amplitude, xo, yo, sigma_x, sigma_y, theta, offset):
 
 def fit_gaussian():
     # load data
-    meas = np.load('./data/psf_out.npy')[()]
+    meas = np.load('./data/psf_out.npy', allow_pickle=True)[()]
     out = np.max(meas['out'], axis=0)
     x_len = out.shape[1]
     y_len = out.shape[0]

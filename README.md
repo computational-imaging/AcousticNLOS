@@ -13,7 +13,7 @@ $ python3 AcousticNLOSReconstruction.py all
 ```
 Or, replace 'all' with the particular scene you wish to reconstruct. 
 
-Then, calculate PSF for deconvolution by running
+After running the 'psf' scene, you can calculate fit the PSF for deconvolution by running
 ```sh
 $ python3 FitGaussianPSF.py
 ```
